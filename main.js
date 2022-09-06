@@ -1,7 +1,7 @@
 // 1-ci sual
 
-// let myArr = ["kitab", "defter", "qelem", "pozan"];
-// myArr.splice(2, 1, "jurnal", "karandas");
+// let myArr = ["kitab", "defter", "qelem", "pozan","Eli","Murad"];
+// myArr.splice(2, 5, "jurnal", "karandas");
 // console.log(myArr);
 // --------------
 // 2-ci sual
@@ -24,9 +24,9 @@
 // const myArr = [-23, 5, 34, 3, -3, 0];
 
 // const result = myArr.filter(function (x) {
-//   return x > 0;
+//   return x >= 0;
 // });
-// // console.log(result);
+// console.log(result);
 
 // function square(number) {
 //   return number * 2;
@@ -35,7 +35,7 @@
 // console.log(total);
 
 // const bigArr=total.sort(function(a,b){
-//     return b-a
+//     return a-b
 // })
 // console.log(bigArr);
 
@@ -49,9 +49,8 @@
 // ---------
 // 4-cu sual
 // const button = "save";
-// const button = "cancel";
-// const button = "update";
-
+// // const button = "cancel";
+// // const button = "update";
 // switch (button) {
 //   case "save":
 //     console.log("Yadda saxlanildi");
@@ -72,8 +71,15 @@
 const myArr = [4, 6, 3, 2, 5, 7];
 let num = [];
 
-myArr.map((e) => (e % 2 == 0 ? num.push("cut") : num.push("tek")));
-console.log(num);
+// myArr.map((e) => (e % 2 == 0 ? num.push("cut") : num.push("tek")));
+// const result = myArr.map(function (x) {
+//   return x % 2 === 0 ? "cüt" : "tek";
+// });
+// console.log(result);
+// const topla=(a,b)=>{
+// return a+b
+// }
+// topla(2,4)
 
 // ------------
 // 6-ci sual
@@ -86,7 +92,10 @@ console.log(num);
 // const obj2={phone: 'telefon', window: 'pencere'}
 
 // const result=Object.assign(obj1,obj2)
-
+// const west={
+//   ...obj1,...obj2
+// }
+// console.log(west);
 // console.log(Object.values(result));
 
 // let numbers = [2, 3, 5, 7, 11, 13, 17, 20, 34, 54, 55, 76, 98];
@@ -108,3 +117,23 @@ console.log(num);
 
 // let button = "cancel";
 // let button="update"
+
+// --------------------------------
+
+// let ad = "Orxan";
+// let say1 = 10;
+// let student = { id: 1, name: "Orxan Allahyarov" };
+// ad = 20;
+
+// function save(toplam = 100, str) {
+//   console.log(str.name + " : " + toplam);
+// }
+// save(undefined, student);
+
+
+
+// call apply bind method
+
+
+
+
